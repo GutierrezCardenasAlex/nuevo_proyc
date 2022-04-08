@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Cuestonario de Cultura general</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>Cuestonario</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">Mas sabe el<input id = "textbox" type = "text" name = "question1">por viejo que por diablo </p>
+
+
+<p class = "questions">¿Año de fundacion de Bolivia?</p>
+<input type = "radio" id = "mc" name = "question2" value = "1990"> 1990<br>
+<input type = "radio" id = "mc" name = "question2" value = "1825"> 1825<br>
+<input type = "radio" id = "mc" name = "question2" value = "1234"> 1234<br>
+<input type = "radio" id = "mc" name = "question2" value = "2345"> 2345<br>
+
+<p class = "questions">posee Bolivia 40 idiomas</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "verdadero"> verdadero<br>
+<input type = "radio" id = "mc" name = "question3" value = "falso"> falso<br>
+
+<p class = "questions">En que pais se encuentra el salar</p>
+<input id = "textbox" type = "text" name = "question4">
+
+<p class = "questions">¿Con que pais se peleo por el pacifico ?</p>
+<input type = "radio" id = "mc" name = "question5" value = "chile"> chile<br>
+<input type = "radio" id = "mc" name = "question5" value = "peru"> peru<br>
+<input type = "radio" id = "mc" name = "question5" value = "argentina"> argentina<br>
+<input type = "radio" id = "mc" name = "question5" value = "paraguay"> paraguay<br>
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+<p id = "puntaje"></p>
+</div>
+</html>
+
+</body>
+
+
+
